@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM_isim_beh.exe" -prj "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM_beh.prj" "work.FSM" 

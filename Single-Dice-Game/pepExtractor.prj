@@ -1,0 +1,4 @@
+work	"FSM.vhd"
+work	"RNG.vhd"
+work	"comaparor3bit.vhd"
+work	"display.vhd"

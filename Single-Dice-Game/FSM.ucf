@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "num[2]" LOC = P81;
+NET "num[1]" LOC = P82;
+NET "num[0]" LOC = P83;
+NET "rndisp[2]" LOC = P8;
+NET "rndisp[1]" LOC = P6;
+NET "rndisp[0]" LOC = P5;
+NET "clk" LOC = P87;
+NET "L" LOC = P93;
+NET "PA" LOC = P16;
+NET "sw" LOC = P17;
+NET "W" LOC = P94;

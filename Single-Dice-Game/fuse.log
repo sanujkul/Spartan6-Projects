@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM_isim_beh.exe -prj C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM_beh.prj work.FSM 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/RNG.vhd" into library work
+Parsing VHDL file "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/display.vhd" into library work
+Parsing VHDL file "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/comaparor3bit.vhd" into library work
+Parsing VHDL file "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity RNG [rng_default]
+Compiling architecture behavioral of entity comaparor3bit [comaparor3bit_default]
+Compiling architecture behavioral of entity display [display_default]
+Compiling architecture behavioral of entity fsm
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\FSM_isim_beh.exe.sim\libPortability.dll".
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM_isim_beh.exe
+Fuse Memory Usage: 29068 KB
+Fuse CPU Usage: 530 ms

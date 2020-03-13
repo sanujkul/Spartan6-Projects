@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 13 06:34:56 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "num<2>" LOCATE = SITE "P81" LEVEL 1;
+COMP "rndisp<0>" LOCATE = SITE "P5" LEVEL 1;
+COMP "rndisp<1>" LOCATE = SITE "P6" LEVEL 1;
+COMP "rndisp<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "clk" LOCATE = SITE "P87" LEVEL 1;
+COMP "PA" LOCATE = SITE "P16" LEVEL 1;
+COMP "sw" LOCATE = SITE "P17" LEVEL 1;
+COMP "L" LOCATE = SITE "P93" LEVEL 1;
+COMP "W" LOCATE = SITE "P94" LEVEL 1;
+COMP "num<0>" LOCATE = SITE "P83" LEVEL 1;
+COMP "num<1>" LOCATE = SITE "P82" LEVEL 1;
+SCHEMATIC END;
+

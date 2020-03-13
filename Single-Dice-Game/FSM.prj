@@ -1,0 +1,4 @@
+vhdl work "RNG.vhd"
+vhdl work "display.vhd"
+vhdl work "comaparor3bit.vhd"
+vhdl work "FSM.vhd"

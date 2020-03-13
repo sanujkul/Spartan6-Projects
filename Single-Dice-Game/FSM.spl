@@ -1,0 +1,10 @@
+[Inputs]
+sw
+clk
+=num[2:0]=
+[Outputs]
+W
+L
+PA
+=rndisp[2:0]=
+[BiDir]

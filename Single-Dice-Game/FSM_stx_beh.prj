@@ -1,0 +1,4 @@
+vhdl isim_temp "RNG.vhd"
+vhdl isim_temp "display.vhd"
+vhdl isim_temp "comaparor3bit.vhd"
+vhdl isim_temp "FSM.vhd"

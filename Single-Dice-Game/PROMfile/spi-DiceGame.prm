@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Xilinx\14.7\ISE_DS\//spi-DiceGame -s 1024 -u 0000 "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/fsm.bit" -spi 
+
+PROM C:\Xilinx\14.7\ISE_DS\spi-DiceGame.prm map: Fri Mar 13 06:41:12 2020
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 0ac76a6c
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Mar 13 06:35:35 2020 C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/fsm.bit

@@ -1,0 +1,9 @@
+vhdtdtfi -lib work RNG.vhd -lib work display.vhd -lib work comaparor3bit.vhd -lib work FSM.vhd -prj Single-Dice-Game -o FSM.spl -module FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 FSM.spl {C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM.sym} 
+xst -intstyle ise -ifn "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM.xst" -ofn "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/Single-Dice-Game/FSM.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FSM.ngc FSM_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FSM.ucf -p xc6slx9-tqg144-3 "FSM.ngc" FSM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf -ucf FSM.ucf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
