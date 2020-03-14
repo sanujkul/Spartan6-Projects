@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Mar 14 13:04:04 2020
+# Process ID: 948
+# Log file: C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P16 [get_ports {rx_data_out[7]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {rx_data_out[7]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {rx_data_out[6]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {rx_data_out[5]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {rx_data_out[4]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {rx_data_out[3]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {rx_data_out[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {rx_data_out[1]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {rx_data_out[0]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {tx_data_in[7]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {tx_data_in[6]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {tx_data_in[5]}]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports {tx_data_in[4]}]
+endgroup
+startgroup
+set_property package_pin P83 [get_ports {tx_data_in[0]}]
+endgroup
+startgroup
+set_property package_pin P82 [get_ports {tx_data_in[1]}]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports {tx_data_in[2]}]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports {tx_data_in[2]}]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports {tx_data_in[7]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {tx_data_in[6]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {tx_data_in[5]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {tx_data_in[4]}]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports {tx_data_in[3]}]
+endgroup
+startgroup
+set_property package_pin P87 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports tx_switch]
+endgroup
+startgroup
+set_property package_pin P88 [get_ports uart_rx]
+endgroup
+startgroup
+set_property package_pin P85 [get_ports uart_tx]
+endgroup
+save_constraints

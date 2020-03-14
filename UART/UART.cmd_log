@@ -1,0 +1,9 @@
+vhdtdtfi -lib work TX.vhd -lib work RX.vhd -lib work UART.vhd -prj UART -o UART.spl -module UART -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 UART.spl {C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/UART.sym} 
+xst -intstyle ise -ifn "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/UART.xst" -ofn "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/UART.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UART.ngc UART_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc6slx9-tqg144-3 "UART.ngc" UART.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -mt off UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 

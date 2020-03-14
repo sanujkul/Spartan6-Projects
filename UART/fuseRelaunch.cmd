@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/UART_isim_beh.exe" -prj "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/UART_beh.prj" "work.UART" 

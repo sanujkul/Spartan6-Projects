@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            03/14/2020 - 13:27
+SOURCE          C:\Users\Sanuj Kulshrestha\Documents\Xilinx-Workspace\UART\PROMfile.mcs
+DEVICE          1024K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x0AC9B211
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/UART/uart.bit" 6slx9tqg144

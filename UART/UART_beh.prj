@@ -1,0 +1,3 @@
+vhdl work "TX.vhd"
+vhdl work "RX.vhd"
+vhdl work "UART.vhd"

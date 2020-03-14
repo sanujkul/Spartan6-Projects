@@ -1,0 +1,9 @@
+[Inputs]
+clk
+tx_switch
+uart_rx
+=tx_data_in[7:0]=
+[Outputs]
+uart_tx
+=rx_data_out[7:0]=
+[BiDir]
