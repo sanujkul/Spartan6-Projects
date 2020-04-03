@@ -4,6 +4,8 @@ This repository contains projects for Xilinx Spartan 6 FPGA written in VHDL.
 Board used is MINI_SP6-SPARTAN 6 FPGA DEVELOPMENT BOARD bought from  
 FPGA Tech Solutions, https://fpgatechsolution.com/product/mini-sp6/
 
+[![](https://i.imgur.com/i5p14JC.png)](https://www.youtube.com/watch?v=ueFb1KmcIBM)
+
 ## Projects Description 
 
 ### 1. Single-Dice-Game. 
