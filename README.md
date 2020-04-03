@@ -16,4 +16,4 @@ This project implement a UART TX and RX Component working at 9600 baud rate, 8N1
 and used is following way:  
 1. The data that FPGA receives on RX_Line is displayed on the 8 USER LEDS.  
 2. To transmit, USER selects 7 bit number from using SW1 DIP switch and K4, K3, K2 Push buttons. Then to transmit the data over TX_line, user presses K1 Push Button.  
-#### 3. Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
+##### Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
