@@ -4,7 +4,7 @@ This repository contains projects for Xilinx Spartan 6 FPGA written in VHDL.
 Board used is MINI_SP6-SPARTAN 6 FPGA DEVELOPMENT BOARD bought from  
 FPGA Tech Solutions, https://fpgatechsolution.com/product/mini-sp6/
 
-[![](https://i.imgur.com/i5p14JC.png)](https://www.youtube.com/watch?v=ueFb1KmcIBM)
+[How to upload ISE code to the board?](https://www.youtube.com/watch?v=ueFb1KmcIBM)
 
 ## Projects Description 
 
@@ -16,6 +16,8 @@ then a blue light will indicate a win, otherwise red light will indicate player 
 ### 2. UART
 This project implement a UART TX and RX Component working at 9600 baud rate, 8N1. These RX and TX componets are instantiated in the main file
 and used is following way:  
-1. The data that FPGA receives on RX_Line is displayed on the 8 USER LEDS.  
+1. The data that FPGA receives on RX_Line is displayed on the 8 USER LEDS.
+[Video demonstration:](https://www.youtube.com/watch?v=kBL-hSgXtCE)
 2. To transmit, USER selects 7 bit number from using SW1 DIP switch and K4, K3, K2 Push buttons. Then to transmit the data over TX_line, user presses K1 Push Button.  
+[Video demonstration:](https://www.youtube.com/watch?v=WnD7BVDf550)
 ##### Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
