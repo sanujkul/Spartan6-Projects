@@ -22,10 +22,12 @@ This is a simple game based on luck. Player chooses a 3 bit number from 1 to 7 o
 This project implement a UART TX and RX Component working at 9600 baud rate, 8N1. These RX and TX componets are instantiated in the main file
 and used is following way:  
 1. The data that FPGA receives on RX_Line is displayed on the 8 USER LEDS.
-[Video demonstration:](https://www.youtube.com/watch?v=kBL-hSgXtCE)
+[Video demonstration](https://www.youtube.com/watch?v=kBL-hSgXtCE).   
 2. To transmit, USER selects 7 bit number from using SW1 DIP switch and K4, K3, K2 Push buttons. Then to transmit the data over TX_line, user presses K1 Push Button.  
-[Video demonstration:](https://www.youtube.com/watch?v=WnD7BVDf550)
-##### Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
+[Video demonstration](https://www.youtube.com/watch?v=WnD7BVDf550)
+##### Feature: The UART RX and TX line can receive and trasmit data simultaneously.   
+Following images show reveiving of data 'E' (i.e. 0x45 or 0b01000101) over UART and displaying it on 8 USER LEDs and transmitting 'A', 'B', 'C' ... character from FPGA.  
+![](https://i.imgur.com/E4XJVzE.png)     ![](https://i.imgur.com/64pR5rZ.png)
 
 ### 3. PWM  
 This project generates a PWM signal.  
