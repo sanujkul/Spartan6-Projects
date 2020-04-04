@@ -1,0 +1,13 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "pwm_out" LOC = P95;
+NET "clk" LOC = P87;
+NET "duticycle[0]" LOC = P7;
+NET "duticycle[1]" LOC = P10;
+NET "duticycle[2]" LOC = P14;
+NET "duticycle[3]" LOC = P17;
+NET "duticycle[4]" LOC = P83;
+NET "duticycle[5]" LOC = P82;
+NET "duticycle[6]" LOC = P81;
+NET "duticycle[7]" LOC = P80;

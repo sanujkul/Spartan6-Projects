@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\Users\Sanuj Kulshrestha\Documents\Xilinx-Workspace\PWM\pwm_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/PWM/pwm_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /pwm/duticycle 00000000 -radix bin
+# isim force add /pwm/clk 0 -radix bin -value 1 -radix bin -time 4 ns -repeat 8 ns
+# run 1.00us
+# run 1.00us
+# isim force add /pwm/duticycle 00110010 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /pwm/duticycle 11111111 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
