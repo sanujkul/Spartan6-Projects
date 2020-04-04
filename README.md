@@ -28,9 +28,9 @@ and used is following way:
 ##### Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
 
 ### 3. PWM  
-This project demonstarted PWM.  
-Working: counter counts increases form 0 to 99 and resets to 0 at 100 at every positive clock edge. User can select duticycle using DIP Switches and Push Buttons available on development board. The PWM_out pin remains HIGH for the count = [0,duticycle) and LOW for count = [duticycle, 100) and therefore we can achieve 0% to 100% duticycle by this method.
-Folowing images shows coontrolling LED brightness with:   
+This project generates a PWM signal.  
+Working: At every positive clock edge, counter counts increases form 0 to 99 and resets to 0 at 100. User can select duticycle using DIP Switches and Push Buttons available on development board. The PWM_out pin remains HIGH for the count in range [0,duticycle) and LOW for count in range [duticycle, 100) and therefore we can achieve 0% to 100% duticycle by this method.  
+##### Folowing images shows controlling LED brightness with various duticycles:   
 0%, 1% and 16% duticycles respectively.   
 ![](https://i.imgur.com/T57K5oP.jpg) ![](https://i.imgur.com/4yakIK3.jpg) ![](https://i.imgur.com/a5MuBmY.jpg)  
 and 32%, 64% and 100% duticycles respectively:  
