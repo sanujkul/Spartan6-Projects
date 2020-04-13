@@ -1,0 +1,4 @@
+vhdl isim_temp "Mux4x2.vhd"
+vhdl isim_temp "Mux2x1.vhd"
+vhdl isim_temp "ALU_1_BIT.vhd"
+vhdl isim_temp "ALU_32_BITS.vhd"

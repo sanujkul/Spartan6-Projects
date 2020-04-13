@@ -47,7 +47,8 @@ entity ALU_1_BIT is
 			  carryIn: in STD_LOGIC;
            Operation : in  STD_LOGIC_VECTOR (3 downto 0); -- Ainvert, Bnegate,2 out MUX select lines
            result : out  STD_LOGIC;
-			  carryOut: out STD_LOGIC);
+			  carryOut: out STD_LOGIC;
+			  set: out STD_LOGIC);
 end ALU_1_BIT;
 
 architecture Behavioral of ALU_1_BIT is
@@ -84,6 +85,9 @@ begin
 	
 	--Full adder inputs are mux_out_A, mux_out_B, carryIn
 	carryOut <= (mux_out_A and mux_out_B) or (mux_out_B and carryIn) or (mux_out_A and carryIn);
-
+	
+	--We store the sum bit in set, highest significant ALU's set bit will got to LESS of ALU0 for SLT function.
+	set <= mux4x2_input(2); 
+	
 end Behavioral;
 

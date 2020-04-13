@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-13T05:54:27</DateModified>
+  <DateModified>2020-04-13T11:22:08</DateModified>
   <ModuleName>ALU_1_BIT</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/iseconfig/ALU_1_BIT.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-13T05:54:27</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

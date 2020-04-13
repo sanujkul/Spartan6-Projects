@@ -22,10 +22,14 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MIPS-ALU-32bits.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_1_BIT_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU32_BITS_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU32_BITS_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ALU32_BITS_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU32_BITS_TB_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_1_BIT_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ALU_1_BIT_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_1_BIT_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_32_BITS_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_32_BITS_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux2x1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux2x1_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux4x2_stx_beh.prj"/>
@@ -41,51 +45,56 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1586782953" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586782952">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586788283" xil_pn:in_ck="3750603861626487373" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586788283">
+    <transform xil_pn:end_ts="1586805811" xil_pn:in_ck="-8967872987422614575" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586805811">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU32_BITS_TB.vhd"/>
       <outfile xil_pn:name="ALU_1_BIT.vhd"/>
+      <outfile xil_pn:name="ALU_32_BITS.vhd"/>
       <outfile xil_pn:name="Mux2x1.vhd"/>
       <outfile xil_pn:name="Mux4x2.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1586786577" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8469291129851058653" xil_pn:start_ts="1586786577">
+    <transform xil_pn:end_ts="1586805048" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-341587503322719123" xil_pn:start_ts="1586805048">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586786578" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5962921951574373477" xil_pn:start_ts="1586786577">
+    <transform xil_pn:end_ts="1586805048" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5417899410439541205" xil_pn:start_ts="1586805048">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586782956" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-47301646608405365" xil_pn:start_ts="1586782956">
+    <transform xil_pn:end_ts="1586804157" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6929730589414547374" xil_pn:start_ts="1586804157">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586788283" xil_pn:in_ck="3750603861626487373" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586788283">
+    <transform xil_pn:end_ts="1586805811" xil_pn:in_ck="-8967872987422614575" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586805811">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU32_BITS_TB.vhd"/>
       <outfile xil_pn:name="ALU_1_BIT.vhd"/>
+      <outfile xil_pn:name="ALU_32_BITS.vhd"/>
       <outfile xil_pn:name="Mux2x1.vhd"/>
       <outfile xil_pn:name="Mux4x2.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1586788286" xil_pn:in_ck="3750603861626487373" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1590797068026552061" xil_pn:start_ts="1586788283">
+    <transform xil_pn:end_ts="1586805815" xil_pn:in_ck="-8967872987422614575" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8248281733818634960" xil_pn:start_ts="1586805811">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="ALU_1_BIT_beh.prj"/>
-      <outfile xil_pn:name="ALU_1_BIT_isim_beh.exe"/>
+      <outfile xil_pn:name="ALU32_BITS_TB_beh.prj"/>
+      <outfile xil_pn:name="ALU32_BITS_TB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1586788286" xil_pn:in_ck="6835677307982910255" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1698949013501891866" xil_pn:start_ts="1586788286">
+    <transform xil_pn:end_ts="1586805815" xil_pn:in_ck="7799694594528649969" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8309832694862834259" xil_pn:start_ts="1586805815">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="ALU_1_BIT_isim_beh.wdb"/>
+      <outfile xil_pn:name="ALU32_BITS_TB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

@@ -1,0 +1,4 @@
+work	"ALU_1_BIT.vhd"
+work	"ALU_32_BITS.vhd"
+work	"Mux2x1.vhd"
+work	"Mux4x2.vhd"

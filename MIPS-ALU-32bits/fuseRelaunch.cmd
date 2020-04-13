@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/ALU_1_BIT_isim_beh.exe" -prj "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/ALU_1_BIT_beh.prj" "work.ALU_1_BIT" 
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/ALU32_BITS_TB_isim_beh.exe" -prj "C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/ALU32_BITS_TB_beh.prj" "work.ALU32_BITS_TB" 
