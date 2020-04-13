@@ -1,0 +1,3 @@
+vhdl work "Mux4x2.vhd"
+vhdl work "Mux2x1.vhd"
+vhdl work "ALU_1_BIT.vhd"

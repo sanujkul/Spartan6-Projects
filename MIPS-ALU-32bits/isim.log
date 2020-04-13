@@ -1,0 +1,26 @@
+ISim log file
+Running: C:\Users\Sanuj Kulshrestha\Documents\Xilinx-Workspace\MIPS-ALU-32bits\ALU_1_BIT_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Sanuj Kulshrestha/Documents/Xilinx-Workspace/MIPS-ALU-32bits/ALU_1_BIT_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu_1_bit/a 1 -radix bin -value 0 -radix bin -time 53 ns -repeat 106 ns
+# isim force add /alu_1_bit/b 1 -radix bin -value 0 -radix bin -time 37 ns -repeat 74 ns
+# isim force add /alu_1_bit/carryin 1 -radix bin
+# isim force add /alu_1_bit/operation 0010 -radix bin -value 0110 -radix bin -time 29 ns -repeat 58 ns
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /alu_1_bit/operation 0000 -radix bin -value 1100 -radix bin -time 29 ns -repeat 58 ns
+# run 1.00us
+# isim force add /alu_1_bit/operation 0001 -radix bin -value 0111 -radix bin -time 29 ns -repeat 58 ns
+# isim force add /alu_1_bit/less 1 -radix bin -value 0 -radix bin -time 79 ns -repeat 158 ns
+# run 1.00us
+# isim force add /alu_1_bit/operation 0010 -radix bin -value 0110 -radix bin -time 27 ns -repeat 54 ns
+# run 1.00us
+# isim force add /alu_1_bit/operation 0000 -radix bin -value 1100 -radix bin -time 29 ns -repeat 58 ns
+# run 1.00us
