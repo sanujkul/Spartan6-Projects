@@ -36,4 +36,14 @@ Working: At every positive clock edge, counter counts increases form 0 to 99 and
 0%, 1% and 16% duticycles respectively.   
 ![](https://i.imgur.com/T57K5oP.jpg) ![](https://i.imgur.com/4yakIK3.jpg) ![](https://i.imgur.com/a5MuBmY.jpg)  
 and 32%, 64% and 100% duticycles respectively:  
-![](https://i.imgur.com/1ZxoZbc.jpg) ![](https://i.imgur.com/ZdLQefE.jpg) ![](https://i.imgur.com/Sqq8mmH.jpg)
+![](https://i.imgur.com/1ZxoZbc.jpg) ![](https://i.imgur.com/ZdLQefE.jpg) ![](https://i.imgur.com/Sqq8mmH.jpg)  
+
+### 4. MIPS-ALU-32bits  
+Designing and simulation of a 32 bit MIPS-ALU. This ALU has functions of all basic ALUs with addition to MIPs features.
+These are AND, OR, SUM, SUBTRACT, SLT (Set Less Than), NOR and Zero flag.
+
+Concept of this ALU is based on book Computer Architecture and Design by Patterson and Hennessy.  
+32 bit MIPs ALU uses 32 1 bit MIPS ALU.  
+Instead of using standard library function on 32 bit operators for above mentioned functions (that book showed in an example), here in this project, first 1 bit ALU is created using simple AND gate, NOT gate, OR gate, Full adder, Multiplexer and then this will be used to create 32 bit ALU.
+
+(At present, work is committed till completion of 1 bit MIPS ALU)
