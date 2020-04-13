@@ -1,10 +1,15 @@
 # Spartan6-Projects
 
-This repository contains projects for Xilinx Spartan 6 FPGA written in VHDL. 
+This repository contains projects for Xilinx Spartan 6 FPGA written in VHDL.  
+
+They are based on the concepts and techniques learned in following courses :  
+1. ECD14 : Digital System Design using VHDL/Verilog by Abhay Sharma
+2. ECD09 : Computer Architecture and Digital Hardware Design by Prof. D.V. Gadre. 
+
 Board used is MINI_SP6-SPARTAN 6 FPGA DEVELOPMENT BOARD bought from  
 FPGA Tech Solutions, https://fpgatechsolution.com/product/mini-sp6/
 
-[How to upload ISE code to the board?](https://www.youtube.com/watch?v=ueFb1KmcIBM)
+[How to upload ISE code to the board?](https://www.youtube.com/watch?v=ueFb1KmcIBM) Thank you Apoorv Aryan for this demonstration!
 
 ## Projects Description 
 
@@ -17,7 +22,18 @@ This is a simple game based on luck. Player chooses a 3 bit number from 1 to 7 o
 This project implement a UART TX and RX Component working at 9600 baud rate, 8N1. These RX and TX componets are instantiated in the main file
 and used is following way:  
 1. The data that FPGA receives on RX_Line is displayed on the 8 USER LEDS.
-[Video demonstration:](https://www.youtube.com/watch?v=kBL-hSgXtCE)
+[Video demonstration](https://www.youtube.com/watch?v=kBL-hSgXtCE).   
 2. To transmit, USER selects 7 bit number from using SW1 DIP switch and K4, K3, K2 Push buttons. Then to transmit the data over TX_line, user presses K1 Push Button.  
-[Video demonstration:](https://www.youtube.com/watch?v=WnD7BVDf550)
-##### Feature: The UART RX and TX line can receive and trasmit data simultaneously. 
+[Video demonstration](https://www.youtube.com/watch?v=WnD7BVDf550)
+##### Feature: The UART RX and TX line can receive and trasmit data simultaneously.   
+Following images show reveiving of data 'E' (i.e. 0x45 or 0b01000101) over UART and displaying it on 8 USER LEDs and transmitting 'A', 'B', 'C' ... character from FPGA.  
+![](https://i.imgur.com/E4XJVzE.png)     ![](https://i.imgur.com/64pR5rZ.png)
+
+### 3. PWM  
+This project generates a PWM signal.  
+Working: At every positive clock edge, counter counts increases form 0 to 99 and resets to 0 at 100. User can select duticycle using DIP Switches and Push Buttons available on development board. The PWM_out pin remains HIGH for the count in range [0,duticycle) and LOW for count in range [duticycle, 100) and therefore we can achieve 0% to 100% duticycle by this method.  
+##### Folowing images shows controlling LED brightness with various duticycles:   
+0%, 1% and 16% duticycles respectively.   
+![](https://i.imgur.com/T57K5oP.jpg) ![](https://i.imgur.com/4yakIK3.jpg) ![](https://i.imgur.com/a5MuBmY.jpg)  
+and 32%, 64% and 100% duticycles respectively:  
+![](https://i.imgur.com/1ZxoZbc.jpg) ![](https://i.imgur.com/ZdLQefE.jpg) ![](https://i.imgur.com/Sqq8mmH.jpg)
