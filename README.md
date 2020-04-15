@@ -46,4 +46,3 @@ Concept of this ALU is based on book Computer Architecture and Design by Patters
 32 bit MIPs ALU uses 32 1 bit MIPS ALU.  
 Instead of using standard library function on 32 bit operators for above mentioned functions (that book showed in an example), here in this project, first 1 bit ALU is created using simple AND gate, NOT gate, OR gate, Full adder, Multiplexer and then this will be used to create 32 bit ALU.
 
-(At present, work is committed till completion of 1 bit MIPS ALU)
