@@ -46,5 +46,7 @@ Concept of this ALU is based on book Computer Architecture and Design by Patters
 32 bit MIPs ALU uses 32 1 bit MIPS ALU.  
 Instead of using standard library function on 32 bit operands for above mentioned functions (what book showed in an example), here in this project, I have first made a 1 bit ALU using simple AND gate, NOT gate, OR gate, Full adder, Multiplexer and then this was used as a building block for 32 bit ALU.
 
+The simulated results can seen in the Project specific [README.md](https://github.com/sanujkul/Spartan6-Projects/tree/master/MIPS-ALU-32bits)
+
 (Zero flag feature has to added.)
 
