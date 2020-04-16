@@ -1,5 +1,16 @@
 # Spartan6-Projects
+***
 
+## Table of Content - 
+### A. Indroduction.
+### B. Projects Description.
+   1. Single-Dice-Game.
+   2. UART
+   3. PWM  
+   4. MIPS-ALU-32bits  
+***
+
+## A. Indroduction.
 This repository contains projects for Xilinx Spartan 6 FPGA written in VHDL.  
 
 They are based on the concepts and techniques learned in following courses :  
@@ -11,7 +22,7 @@ FPGA Tech Solutions, https://fpgatechsolution.com/product/mini-sp6/
 
 [How to upload ISE code to the board?](https://www.youtube.com/watch?v=ueFb1KmcIBM) Thank you Apoorv Aryan for this demonstration!
 
-## Projects Description
+## B. Projects Description.
 
 ---
 
